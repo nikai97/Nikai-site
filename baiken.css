@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(58, 18, 26);
+}
+
+
+.Cabecalho {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: rgb(52, 131, 85);
+    padding: 30px;
+    border-bottom: black solid 4px;
+}
+
+.Cabecalho img {
+    width: 36px;
+}
+
+.Cabecalho a {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color:black ;
+}
+
+.Cabecalho a:hover {
+    transition-delay: 0.1;
+    border-bottom: black solid 2px;
+    background-color: rgb(19, 46, 30);
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.Centro {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.centro-text {
+    display: block;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.centro-text a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    gap: 80px;
+    margin-top: 30px;
+}

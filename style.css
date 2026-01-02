@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+
+.Cabecalho {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: lightgreen;
+    padding: 30px;
+    border-bottom: black solid 4px;
+}
+
+.Cabecalho img {
+    width: 36px;
+}
+
+.Cabecalho a {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color:black ;
+}
+
+.Cabecalho a:hover {
+    transition-delay: 0.1;
+    border-bottom: black solid 2px;
+    background-color: rgb(100, 158, 100);
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.Principal {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 260px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: white 2px solid;
+}
+
+.card-text {
+    display: block;
+    margin-top: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.Principal a:hover {
+    transition-delay: 0.1;
+    color: antiquewhite;
+    padding: 1px;
+}
+
