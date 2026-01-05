@@ -6,14 +6,15 @@
 }
 
 body {
-    background-color: darkslategrey;
+    background-color: rgb(30, 31, 31);
 }
+
 
 .Cabecalho {
     display: flex;
     justify-content: space-between;
     gap: 15px;
-    background-color: lightgreen;
+    background-color: rgb(194, 36, 36);
     padding: 30px;
     border-bottom: black solid 4px;
 }
@@ -32,28 +33,42 @@ body {
 .Cabecalho a:hover {
     transition-delay: 0.1;
     border-bottom: black solid 2px;
-    background-color: rgb(100, 158, 100);
+    background-color: rgb(71, 18, 16);
     border-radius: 2px;
     padding: 2px;
+    color: whitesmoke;
 }
 
-.conteudo {
-    display: block;
+.Centro {
+    display: flex;
     justify-content: center;
-    margin-top: 40px;
-    gap: 20px;
+    gap: 60px;
 }
 
-.conteudo-text {
+.centro-text {
     display: block;
     justify-content: center;
+    gap: 100px;
     text-align: center;
-    font-size: 30px;
-    gap: 20px;
+    font-size: 40px;
+}
+
+.centro-text a {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
     color: antiquewhite;
     font-weight: bold;
-    margin: 5px;
-    padding: 20px;
-    background-color: rgb(17, 27, 27);
-    border-radius: 4px;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+.centro-text a:hover {
+    transition-delay: 0.1;
+    color: rgb(71, 71, 71);
+    border-radius: 2px;
+    border: black 2px solid;
+    background-color: rgb(7, 7, 7);
+    padding: 4px;
 }

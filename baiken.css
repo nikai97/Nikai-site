@@ -53,9 +53,21 @@ body {
 }
 
 .centro-text a {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
     text-decoration: none;
     color: antiquewhite;
     font-weight: bold;
     gap: 80px;
     margin-top: 30px;
+}
+
+.centro-text a:hover {
+    transition-delay: 0.1;
+    color: rgb(105, 102, 97);
+    border-radius: 2px;
+    border: black 2px solid;
+    background-color: rgb(27, 5, 9);
+    padding: 4px;
 }

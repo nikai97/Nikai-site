@@ -37,23 +37,29 @@ body {
     padding: 2px;
 }
 
-.conteudo {
+.contatos {
     display: block;
     justify-content: center;
     margin-top: 40px;
     gap: 20px;
 }
 
-.conteudo-text {
+.contatos-text {
     display: block;
     justify-content: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     gap: 20px;
     color: antiquewhite;
     font-weight: bold;
     margin: 5px;
     padding: 20px;
-    background-color: rgb(17, 27, 27);
+}
+
+.contatos-text p {
+    gap: 30px;
+    background-color: rgb(21, 31, 31);
     border-radius: 4px;
+    margin: 5px;
+    padding: 10px;
 }
